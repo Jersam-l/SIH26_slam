@@ -1,4 +1,21 @@
-catkin_ws/build/
-catkin_ws/devel/
-*.bag
-.catkin_workspace
+# Build outputs
+build/
+install/
+log/
+
+# Local dependency/source artifacts
+gtsam-4.0.2/
+*.deb
+
+# Local package workaround artifacts
+libpcl-dev-control
+libpcl-dev-dummy/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# ROS generated files
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
